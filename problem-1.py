@@ -16,7 +16,6 @@ five_multiples: List[int] = find_multiples_below(N, 5)
 
 multiple_set = set(three_multiples + five_multiples)
 print("Multiple Set:", multiple_set)
-sum = sum(multiple_set)
 
-# sum = sum(three_multiples) + sum(five_multiples)
+sum = sum(multiple_set)
 print("Sum:", sum)
